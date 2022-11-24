@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+}
+
+.container{
+    background-color: hsl(216, 50%, 16%);
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: -30px 10px 20px #0B1726;
+}
+
+img, p{
+    width: 300px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.details{
+    display: flex;
+    width: 300px;
+}
+
+p{
+    color: #8098B7;
+}
+
+#head-txt{
+    line-height: 1.5;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.logo{
+    width: 12px;
+    margin-right: 5px;
+}
+
+.logo2{
+    width: 20px;
+    margin-right: 5px;
+}
+
+
+
+#head{
+    color: hsl(0, 0%, 100%);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#eth{
+    font-weight: 700;
+    color:hsl(178, 100%, 50%);
+    /* color: hsl(215, 32%, 27%); */
+}
+
+#eth, #third{
+    display: flex;
+}
+
+#third{
+    justify-content: end;
+}
+
+#end{
+    width: 300px;
+    display: flex;
+    align-items: center;
+}
+
+#end img{
+    width: 10%;
+    margin-right: 15px;
+}
+
+span{
+    color: white;
+}
+
+span:hover{
+    color:hsl(178, 100%, 50%);
+} 
+
+#head:hover {
+    color:hsl(178, 100%, 50%);
+}
+  
